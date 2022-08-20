@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrey\SitemapGenerator;
+namespace PavlenkoAndrey\SitemapGenerator;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;

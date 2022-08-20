@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrey\SitemapGenerator;
+namespace PavlenkoAndrey\SitemapGenerator;
 
 class SiteMapGenerator
 {
