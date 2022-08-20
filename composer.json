@@ -1,5 +1,5 @@
 {
-    "name": "andrey/sitemap-generator",
+    "name": "pavlenkoandrey/sitemap-generator",
     "description": "Sitemap generator(json, xml, csv)",
     "type": "library",
     "license": "Apache-2.0",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Andrey\\SitemapGenerator\\": "src/"
+            "PavlenkoAndrey\\SitemapGenerator\\": "src/"
         }
     }
 }
