@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\View;
 
 class JsonSitemapGenerator implements SitemapGeneratorInterface
 {
-    public function generate(string $path, $data)
+    public function generate(string $path, array $data)
     {
         File::makeDirectory($path, 0777, true, true);
         $content = View::make('sitemap-json', [
