@@ -18,5 +18,12 @@
         "psr-4": {
             "PavlenkoAndrey\\SitemapGenerator\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PavlenkoAndrey\\SitemapGenerator\\Providers\\SitemapGeneratorServiceProvider"
+            ]
+        }
     }
 }

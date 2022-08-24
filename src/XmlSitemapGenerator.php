@@ -11,7 +11,7 @@ class XmlSitemapGenerator implements SitemapGeneratorInterface
     public function generate(string $path, array $data)
     {
         File::makeDirectory($path, 0777, true, true);
-        $content = View::make('sitemap-xml', [
+        $content = View::make('sitemap-generator/sitemap-xml', [
             'content' => $data
         ]);
         Storage::disk('local')->put("$path/sitemap.xml", $content);
