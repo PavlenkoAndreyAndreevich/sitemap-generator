@@ -8,6 +8,6 @@ php artisan vendor:publish --provider="PavlenkoAndrey\SitemapGenerator\Providers
 
 USE CASE
 --------
-php artisan sitemap:generate xml
-php artisan sitemap:generate json
-php artisan sitemap:generate csv
+- php artisan sitemap:generate xml
+- php artisan sitemap:generate json
+- php artisan sitemap:generate csv
