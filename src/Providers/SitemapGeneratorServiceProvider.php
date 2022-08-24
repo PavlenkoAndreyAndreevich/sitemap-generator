@@ -13,6 +13,10 @@ class SitemapGeneratorServiceProvider extends ServiceProvider
 
             $this->loadViewsFrom(__DIR__.'/../resources/views', 'sitemap-generator');
 
+            $this->publishes([
+                __DIR__.'/resources/views' => resource_path('views/vendor/sitemap-generator'),
+            ]);
+
             $this->commands([
                 GenerateSitemap::class,
             ]);
